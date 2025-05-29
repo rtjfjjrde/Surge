@@ -5,88 +5,88 @@
 ########## Figma 相关 ##########
 
 # Figma 主站、登录、API、社区、插件市场
-DOMAIN-SUFFIX,figma.com,design                # Figma 官网、主服务
-DOMAIN-SUFFIX,www.figma.com,design            # Figma 主站（部分请求会用 www）
-DOMAIN-SUFFIX,plugin-api.figma.com,design     # Figma 插件 API
-DOMAIN-SUFFIX,community.figma.com,design      # Figma 社区（模板、插件、资源）
+DOMAIN-SUFFIX,figma.com                               # Figma 官网、主服务
+DOMAIN-SUFFIX,www.figma.com                           # Figma 主站（部分请求会用 www）
+DOMAIN-SUFFIX,plugin-api.figma.com                    # Figma 插件 API
+DOMAIN-SUFFIX,community.figma.com                     # Figma 社区（模板、插件、资源）
 # Figma 静态资源、插件包、用户上传内容
-DOMAIN-SUFFIX,figmacdn.com,design             # Figma 静态资源 CDN
-DOMAIN-SUFFIX,figmausercontent.com,design     # 用户上传内容、社区资源
-DOMAIN-SUFFIX,figma.site,design               # Figma Sites（新服务，站点发布）
+DOMAIN-SUFFIX,figmacdn.com                            # Figma 静态资源 CDN
+DOMAIN-SUFFIX,figmausercontent.com                    # 用户上传内容、社区资源
+DOMAIN-SUFFIX,figma.site                              # Figma Sites（新服务，站点发布）
 # Figma 资源常用的 AWS S3 域名
-DOMAIN-SUFFIX,s3.amazonaws.com,design         # AWS S3，Figma 插件/社区资源
-DOMAIN-SUFFIX,amazonaws.com,design            # AWS 相关资源（兜底）
-DOMAIN-SUFFIX,figjam.com,design               # FigJam（Figma 白板/协作）
+DOMAIN-SUFFIX,s3.amazonaws.com                        # AWS S3，Figma 插件/社区资源
+DOMAIN-SUFFIX,amazonaws.com                           # AWS 相关资源（兜底）
+DOMAIN-SUFFIX,figjam.com                              # FigJam（Figma 白板/协作）
 
 ########## 设计工具/平台 ##########
 
 # Adobe 全家桶（主站、登录、API、云服务、字体、Behance 社区）
-DOMAIN-SUFFIX,adobe.com,design                # Adobe 官网、Creative Cloud
-DOMAIN-SUFFIX,adobelogin.com,design           # Adobe 登录服务
-DOMAIN-SUFFIX,adobe.io,design                 # Adobe API
-DOMAIN-SUFFIX,behance.net,design              # Behance 设计社区
-DOMAIN-SUFFIX,creativecloud.com,design        # Adobe Creative Cloud
-DOMAIN-SUFFIX,fonts.adobe.com,design          # Adobe 字体服务
+DOMAIN-SUFFIX,adobe.com                               # Adobe 官网、Creative Cloud
+DOMAIN-SUFFIX,adobelogin.com                          # Adobe 登录服务
+DOMAIN-SUFFIX,adobe.io                                # Adobe API
+DOMAIN-SUFFIX,behance.net                             # Behance 设计社区
+DOMAIN-SUFFIX,creativecloud.com                       # Adobe Creative Cloud
+DOMAIN-SUFFIX,fonts.adobe.com                         # Adobe 字体服务
 
 # 其他主流设计工具/平台
-DOMAIN-SUFFIX,draw.io,design                  # draw.io（流程图/思维导图）
-DOMAIN-SUFFIX,sketch.com,design               # Sketch（Mac 端设计工具）
-DOMAIN-SUFFIX,procreate.art,design            # Procreate（iPad 绘画）
-DOMAIN-SUFFIX,canva.com,design                # Canva（在线设计）
-DOMAIN-SUFFIX,dribbble.com,design             # Dribbble（设计作品社区）
-DOMAIN-SUFFIX,uxdesign.cc,design              # UX Design 资讯
-DOMAIN-SUFFIX,notion.so,design                # Notion（知识管理/协作）
-DOMAIN-SUFFIX,miro.com,design                 # Miro（在线白板/协作）
-DOMAIN-SUFFIX,zeplin.io,design                # Zeplin（设计交付）
-DOMAIN-SUFFIX,invisionapp.com,design          # InVision（原型/协作）
-DOMAIN-SUFFIX,marvelapp.com,design            # Marvel（原型设计）
-DOMAIN-SUFFIX,proto.io,design                 # Proto.io（原型设计）
-DOMAIN-SUFFIX,framer.com,design               # Framer（交互原型/网站）
-DOMAIN-SUFFIX,webflow.com,design              # Webflow（可视化建站）
-DOMAIN-SUFFIX,affinity.serif.com,design       # Affinity（平面设计/排版）
-DOMAIN-SUFFIX,blender.org,design              # Blender（3D 建模/动画）
-DOMAIN-SUFFIX,autodesk.com,design             # Autodesk（AutoCAD、3D 设计）
-DOMAIN-SUFFIX,coreldraw.com,design            # CorelDRAW（矢量设计）
-DOMAIN-SUFFIX,clip-studio.com,design          # Clip Studio Paint（插画/漫画）
-DOMAIN-SUFFIX,gravit.io,design                # Gravit Designer（矢量设计）
-DOMAIN-SUFFIX,vectornator.io,design           # Vectornator（矢量设计）
-DOMAIN-SUFFIX,crello.com,design               # Crello（在线设计）
-DOMAIN-SUFFIX,desygner.com,design             # Desygner（在线设计）
-DOMAIN-SUFFIX,placeit.net,design              # Placeit（样机生成）
-DOMAIN-SUFFIX,logomakr.com,design             # LogoMakr（Logo 设计）
-DOMAIN-SUFFIX,logojoy.com,design              # Logojoy（Logo 设计）
-DOMAIN-SUFFIX,looka.com,design                # Looka（Logo 设计）
-DOMAIN-SUFFIX,designcrowd.com,design          # DesignCrowd（设计众包）
-DOMAIN-SUFFIX,99designs.com,design            # 99designs（设计众包）
-DOMAIN-SUFFIX,designmodo.com,design           # Designmodo（设计资源/工具）
-DOMAIN-SUFFIX,design.tips,design              # 设计相关资讯/资源
+DOMAIN-SUFFIX,draw.io                                 # draw.io（流程图/思维导图）
+DOMAIN-SUFFIX,sketch.com                              # Sketch（Mac 端设计工具）
+DOMAIN-SUFFIX,procreate.art                           # Procreate（iPad 绘画）
+DOMAIN-SUFFIX,canva.com                               # Canva（在线设计）
+DOMAIN-SUFFIX,dribbble.com                            # Dribbble（设计作品社区）
+DOMAIN-SUFFIX,uxdesign.cc                             # UX Design 资讯
+DOMAIN-SUFFIX,notion.so                               # Notion（知识管理/协作）
+DOMAIN-SUFFIX,miro.com                                # Miro（在线白板/协作）
+DOMAIN-SUFFIX,zeplin.io                               # Zeplin（设计交付）
+DOMAIN-SUFFIX,invisionapp.com                         # InVision（原型/协作）
+DOMAIN-SUFFIX,marvelapp.com                           # Marvel（原型设计）
+DOMAIN-SUFFIX,proto.io                                # Proto.io（原型设计）
+DOMAIN-SUFFIX,framer.com                              # Framer（交互原型/网站）
+DOMAIN-SUFFIX,webflow.com                             # Webflow（可视化建站）
+DOMAIN-SUFFIX,affinity.serif.com                      # Affinity（平面设计/排版）
+DOMAIN-SUFFIX,blender.org                             # Blender（3D 建模/动画）
+DOMAIN-SUFFIX,autodesk.com                            # Autodesk（AutoCAD、3D 设计）
+DOMAIN-SUFFIX,coreldraw.com                           # CorelDRAW（矢量设计）
+DOMAIN-SUFFIX,clip-studio.com                         # Clip Studio Paint（插画/漫画）
+DOMAIN-SUFFIX,gravit.io                               # Gravit Designer（矢量设计）
+DOMAIN-SUFFIX,vectornator.io                          # Vectornator（矢量设计）
+DOMAIN-SUFFIX,crello.com                              # Crello（在线设计）
+DOMAIN-SUFFIX,desygner.com                            # Desygner（在线设计）
+DOMAIN-SUFFIX,placeit.net                             # Placeit（样机生成）
+DOMAIN-SUFFIX,logomakr.com                            # LogoMakr（Logo 设计）
+DOMAIN-SUFFIX,logojoy.com                             # Logojoy（Logo 设计）
+DOMAIN-SUFFIX,looka.com                               # Looka（Logo 设计）
+DOMAIN-SUFFIXcrowd.com                                # DesignCrowd（设计众包）
+DOMAIN-SUFFIX,99designs.com                           # 99designs（设计众包）
+DOMAIN-SUFFIXmodo.com                                 # Designmodo（设计资源/工具）
+DOMAIN-SUFFIX.tips                                    # 设计相关资讯/资源
 
 ########## AI 相关服务 ##########
 
 # 主流 AI 平台/工具（文生图、AI 辅助设计、AI 聊天等）
-DOMAIN-SUFFIX,openai.com,design               # OpenAI（ChatGPT、API）
-DOMAIN-SUFFIX,chatgpt.com,design              # ChatGPT 官网
-DOMAIN-SUFFIX,poe.com,design                  # Poe（多模型 AI 聊天）
-DOMAIN-SUFFIX,midjourney.com,design           # Midjourney（AI 绘画）
-DOMAIN-SUFFIX,stability.ai,design             # Stability AI（Stable Diffusion）
-DOMAIN-SUFFIX,runwayml.com,design             # RunwayML（AI 视频/图像）
-DOMAIN-SUFFIX,perplexity.ai,design             # Perplexity（AI 搜索/问答）
-DOMAIN-SUFFIX,claude.ai,design                # Claude（Anthropic AI 聊天）
-DOMAIN-SUFFIX,gemini.google.com,design        # Google Gemini（AI 聊天/搜索）
-DOMAIN-SUFFIX,replicate.com,design            # Replicate（AI 模型托管/推理）
-DOMAIN-SUFFIX,character.ai,design             # Character.AI（AI 角色对话）
-DOMAIN-SUFFIX,deepmind.com,design             # Google DeepMind（AI 研究）
-DOMAIN-SUFFIX,cohere.com,design               # Cohere（AI 语言模型）
-DOMAIN-SUFFIX,ai.com,design                   # AI.com（OpenAI 跳转）
-DOMAIN-SUFFIX,ai.google,design                # Google AI
-DOMAIN-SUFFIX,ai.meta.com,design              # Meta AI
-DOMAIN-SUFFIX,anthropic.com,design            # Anthropic（Claude）
-DOMAIN-SUFFIX,magenta.tensorflow.org,design   # Google Magenta（AI 音乐/艺术）
-DOMAIN-SUFFIX,segment-anything.com,design     # Meta Segment Anything（AI 分割）
-DOMAIN-SUFFIX,leonardo.ai,design              # Leonardo AI（AI 绘画）
-DOMAIN-SUFFIX,designer.microsoft.com,design   # Microsoft Designer（AI 设计）
-DOMAIN-SUFFIX,firefly.adobe.com,design        # Adobe Firefly（AI 生成式设计）
-DOMAIN-SUFFIX,ideogram.ai,design              # Ideogram（AI 绘画）
-DOMAIN-SUFFIX,drawanyone.ai,design            # DrawAnyone（AI 绘画）
+DOMAIN-SUFFIX,openai.com                              # OpenAI（ChatGPT、API）
+DOMAIN-SUFFIX,chatgpt.com                             # ChatGPT 官网
+DOMAIN-SUFFIX,poe.com                                 # Poe（多模型 AI 聊天）
+DOMAIN-SUFFIX,midjourney.com                          # Midjourney（AI 绘画）
+DOMAIN-SUFFIX,stability.ai                            # Stability AI（Stable Diffusion）
+DOMAIN-SUFFIX,runwayml.com                            # RunwayML（AI 视频/图像）
+DOMAIN-SUFFIX,perplexity.ai                           # Perplexity（AI 搜索/问答）
+DOMAIN-SUFFIX,claude.ai                               # Claude（Anthropic AI 聊天）
+DOMAIN-SUFFIX,gemini.google.com                       # Google Gemini（AI 聊天/搜索）
+DOMAIN-SUFFIX,replicate.com                           # Replicate（AI 模型托管/推理）
+DOMAIN-SUFFIX,character.ai                            # Character.AI（AI 角色对话）
+DOMAIN-SUFFIX,deepmind.com                            # Google DeepMind（AI 研究）
+DOMAIN-SUFFIX,cohere.com                              # Cohere（AI 语言模型）
+DOMAIN-SUFFIX,ai.com                                  # AI.com（OpenAI 跳转）
+DOMAIN-SUFFIX,ai.google                               # Google AI
+DOMAIN-SUFFIX,ai.meta.com                             # Meta AI
+DOMAIN-SUFFIX,anthropic.com                           # Anthropic（Claude）
+DOMAIN-SUFFIX,magenta.tensorflow.org                  # Google Magenta（AI 音乐/艺术）
+DOMAIN-SUFFIX,segment-anything.com                    # Meta Segment Anything（AI 分割）
+DOMAIN-SUFFIX,leonardo.ai                             # Leonardo AI（AI 绘画）
+DOMAIN-SUFFIXer.microsoft.com                         # Microsoft Designer（AI 设计）
+DOMAIN-SUFFIX,firefly.adobe.com                       # Adobe Firefly（AI 生成式设计）
+DOMAIN-SUFFIX,ideogram.ai                             # Ideogram（AI 绘画）
+DOMAIN-SUFFIX,drawanyone.ai                           # DrawAnyone（AI 绘画）
 
 # 结尾：如有新工具/服务，建议随时补充
