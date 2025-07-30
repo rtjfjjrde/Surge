@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,figma.site,design               # Figma Sites（新服务，站点
 DOMAIN-SUFFIX,s3.amazonaws.com,design         # AWS S3，Figma 插件/社区资源
 DOMAIN-SUFFIX,amazonaws.com,design            # AWS 相关资源（兜底）
 DOMAIN-SUFFIX,figjam.com,design               # FigJam（Figma 白板/协作）
+DOMAIN-SUFFIX,sprig.com,design                # Figma 不知道啥玩意儿
 
 ########## 设计工具/平台 ##########
 
